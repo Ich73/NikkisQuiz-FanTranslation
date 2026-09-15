@@ -1,0 +1,24 @@
+{
+	"XDELTA":
+	{
+		"Banner": [".bcwav", ".cbmd", ".cgfx"],
+		"ExeFS": [".bin"],
+		"Manual": [".bcma"],
+		"Sound": [".bcsar", ".bcstm"],
+		"Image": [".jtex"],
+		"Layout": [".bjae"],
+		"Text": [".dat"],
+		"RomFS": [".bccam", ".bcfnt", ".bcmdl", ".bctex", ".bin", ".shbin"]
+	},
+	"PARENT":
+	{
+		"Banner": "ExtractedBanner",
+		"ExeFS": "ExtractedExeFS",
+		"Manual": "ExtractedManual",
+		"Sound": "ExtractedRomFS/Sound",
+		"Image": "ExtractedRomFS",
+		"Layout": "ExtractedRomFS",
+		"Text": "ExtractedRomFS",
+		"RomFS": "ExtractedRomFS"
+	}
+}
